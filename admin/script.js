@@ -35,14 +35,18 @@ function toggleMenuLateral() {
 }
 
 // Função salvar usuário 
-function salvarUsuario(){
-
+function salvarUsuario(login){
 /** 
  * 
  * Avaliação JS: Esta função deve salvar usuarios apenas se as senhas estiverem corretas
  * 
  **/
+   let usuario=aluno;
+   let senha=aluno;
 
+   if(!usaurio && !senha){
+     window.alert('erro');
+   }
 }
 
 if(key){

@@ -201,20 +201,32 @@ ul a li.shrink{
     margin: 0px auto;
     margin-bottom: 20px;
     padding: 10px 40px;
-    display: ; /* Parte da avaliação de CSS */ 
-    flex-wrap: ; /* Parte da avaliação de CSS */ 
-    justify-content: ; /* Parte da avaliação de CSS */    
+    display: grid; /* Parte da avaliação de CSS */ 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto ;
+    flex-wrap: wrap; /* Parte da avaliação de CSS */ 
+    justify-content: center; /* Parte da avaliação de CSS */   
+    height: 900px;
+    width: 1200px;
+    gap: 30px;
+    text-align: center;
 }
-#comentarios h2{ width: 100%;}
+.comentarios div {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.3);
+}
+.comentarios img{
+    height: auto;
+    align-content: center;
+}
+#comentarios h2{ 
+    width: 100%;
+    height: auto;
+}
+.textocomentario{
+    align-items: center;
+}
 
-/** 
- * 
- * Avaliação: CSS seção de comentários
- * 
- **/
-
-/* Fim Comentários / Depoimentos */
-/* início Modal*/
 dialog{
     width: 40%;
     min-width: 300px;

@@ -65,55 +65,69 @@
             <img src="./img/img1.jpg" alt="Foto 1">
         </div>
     </section>
-    
+    <h2>Orçamento</h2>
         <form onsubmit="enviarOrcamento()">
-            <!-- 
-               -                 
-               - Avaliação HTML: Form de orçamentos               
-               -
-             -->
+            <input type="text" name="nome" id="nome" value="Seu Nome"><br>
+            <input type="email" name="email" id="email" value="Email"><br>
+            <input type="tel" name="telefone" id="telefone" value="Seu Telefone">
+            <input type="text" name="duracao" id="duracao" value="Duração do Evento (em horas)">
+            <input type="text" name="local" id="local" value="Local do Evento">
+            <select name="tipo" id="tipo">
+                <option value="Tipo de Evento">Tipo de Evento</option>
+                <option value="Interno">Interno</option>
+                <option value="Externo">Externo</option>
+                <option value="Interno e Externo">Interno e Externo</option>
+            </select>
+            <select id="fotos">
+                <option value="Fotos Impressas">Fotos Impressas</option>
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select>
+            <input type="text" name="qtd" id="qtd" value="Quantidade de Fotos Impressas">
+            <textarea name="detalhes" id="detalhes" value="Detalhes adicionais"></textarea>
+            <button type="submit" value="salvar">Enviar Solicitação</button>
         </form>
     
     <section id="comentarios">
-        <h2>Comentarios</h2>
-        <div class="comentario">
-            <img src="./img/pacman_v1.jpg" alt="Pessoa 1">
+        <h2>Comentarios</h2><br>
+        <div class="comentarios">
             <div class="textoComentario">
+                <img src="./img/pacman_v1.jpg" alt="Pessoa 1">
                 <h3>João Silva</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit a voluptas optio molestias dolores officiis inventore. Ex minima temporibus quo quae reprehenderit ut corrupti dicta ad veniam, consequuntur, id distinctio!</p>
             </div>
         </div>
-        <div class="comentario">
-            <img src="./img/pacman_v2.jpg" alt="Pessoa 2">
+        <div class="comentarios">
             <div class="textoComentario">
+                <img src="./img/pacman_v2.jpg" alt="Pessoa 2">
                 <h3>Maria Oliveira</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eius ullam voluptas nobis odit quidem sequi earum officia corporis id, suscipit saepe quibusdam officiis quasi voluptate placeat accusamus! Soluta, nobis?</p>
             </div>
         </div>
-        <div class="comentario">
-            <img src="./img/pacman_v3.jpg" alt="Pessoa 3">
+        <div class="comentarios">
             <div class="textoComentario">
+                <img src="./img/pacman_v3.jpg" alt="Pessoa 3">
                 <h3>Pedro Santos</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, aspernatur? Non quo facilis sint consectetur laborum, cupiditate animi reprehenderit dolorem reiciendis commodi deserunt doloribus eius libero illo neque nisi aliquam.</p>
             </div>
         </div>
-        <div class="comentario">
-            <img src="./img/pacman_v1.jpg" alt="Pessoa 1">
+        <div class="comentarios">
             <div class="textoComentario">
+                <img src="./img/pacman_v1.jpg" alt="Pessoa 1">
                 <h3>João Silva</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit a voluptas optio molestias dolores officiis inventore. Ex minima temporibus quo quae reprehenderit ut corrupti dicta ad veniam, consequuntur, id distinctio!</p>
             </div>
         </div>
-        <div class="comentario">
-            <img src="./img/pacman_v2.jpg" alt="Pessoa 2">
+        <div class="comentarios">
             <div class="textoComentario">
+                <img src="./img/pacman_v2.jpg" alt="Pessoa 2">
                 <h3>Maria Oliveira</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eius ullam voluptas nobis odit quidem sequi earum officia corporis id, suscipit saepe quibusdam officiis quasi voluptate placeat accusamus! Soluta, nobis?</p>
             </div>
         </div>
-        <div class="comentario">
-            <img src="./img/pacman_v3.jpg" alt="Pessoa 3">
+        <div class="comentarios">
             <div class="textoComentario">
+                <img src="./img/pacman_v3.jpg" alt="Pessoa 3">
                 <h3>Pedro Santos</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit a voluptas optio molestias dolores officiis inventore. Ex minima temporibus quo quae reprehenderit ut corrupti dicta ad veniam, consequuntur, id distinctio!</p>
             </div>
